@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# Virtual environments
+.env/
+venv/
+env/
+envjarvis/
+.venv/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build / caches
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Project local data
+backend/cookies.json
+backend/auth/samples/
+backend/auth/trainer/
+
+# Logs
+*.log
